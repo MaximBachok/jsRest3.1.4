@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="row  justify-content-center form-group text-center" style="padding-top: 50px;">
+    <form name='f' action="login" method='POST'
+          style="width: 300px;">
+        <h1>Please sign in</h1>
+        <div class="input-group mb-3">
+            <input type='text' name='username' class="form-control" aria-label="Sizing example input"
+                   aria-describedby="inputGroup-sizing-default"
+                   placeholder="Email address">
+        </div>
+        <div class="input-group mb-3">
+            <input type='password' name='password' class="form-control" aria-label="Sizing example input"
+                   aria-describedby="inputGroup-sizing-default"
+                   placeholder="Password">
+        </div>
+        <button style="width: 300px;" name="submit" value="submit" class="btn btn-primary" type="submit">Sign in
+        </button>
+    </form>
+</div>
+</body>
+</html>
